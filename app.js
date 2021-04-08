@@ -21,10 +21,10 @@ const countPoints = (amount) => {
   }
 };
 
-[123, 423, 41, 51, 3232, 2322, 1233, -122]
-  .map((amount) => countPoints(amount))
-  .reduce((acc, current) => acc + current, 0);
-
 /* 
 this gives sum of all points in your given dataset. You can pass array of amounts you like and it will return sum of points
 */
+
+[123, 423, 41, 51, 3232, 2322, 1233, -122]
+  .map((amount) => countPoints(amount))
+  .reduce((acc, current) => acc + current, 0);
